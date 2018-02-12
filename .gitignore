@@ -49,8 +49,9 @@ Temporary Items
 .apdisk
 
 /Test/*
-Debug/
-Release/
+Debug/*
+Release/*
 Utility/*/Tmp/
 .vs/
+Bin/*
 
