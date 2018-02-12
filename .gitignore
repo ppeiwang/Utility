@@ -51,7 +51,7 @@ Temporary Items
 /Test/*
 Debug/*
 Release/*
-/Tmp/*
+Tmp/
 .vs/
-Bin/*
+Bin/
 
