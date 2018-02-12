@@ -51,7 +51,7 @@ Temporary Items
 /Test/*
 Debug/*
 Release/*
-Utility/*/Tmp/
+/Tmp/*
 .vs/
 Bin/*
 
