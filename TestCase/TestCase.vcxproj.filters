@@ -23,5 +23,8 @@
     <ClInclude Include="..\String\PPCString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Auxility\PPTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
