@@ -13,10 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{bcaf6f66-fc86-41cc-80f8-faf194af6124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{c5d208a2-7c89-4bcd-a215-7417dfe072f7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestCase.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Auxility\logger.cpp">
+      <Filter>Logger</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -25,6 +34,12 @@
     </ClInclude>
     <ClInclude Include="..\Auxility\PPTime.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Auxility\logger.hpp">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\Statistics.hpp">
+      <Filter>Math</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

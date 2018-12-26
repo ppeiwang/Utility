@@ -15,6 +15,21 @@ namespace PEIPEISPACE
 		e.g. trimLeft(strSrc, "a b c e");
 		std::cout<<strSrc; // will print "dabc", every character that is in pattern "a b c e" will be deleted
 	*/
+	
+	void Strip(std::string& str)
+	{
+		size_t endpos = str.find_last_not_of(" \t");
+		size_t startpos = str.find_first_not_of(" \t");
+		if( std::string::npos != endpos )
+		{
+			str = str.substr( 0, endpos+1 );
+			str = str.substr( startpos );
+		}
+		else 
+		{
+			str.erase(std::remove(str.begin(), str.end(), ' '), str.end());
+		}
+	}
 
 	template<class T>
 	void trim(T& s, const T& strTarget)

@@ -132,10 +132,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Auxility\logger.cpp" />
     <ClCompile Include="TestCase.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Auxility\logger.hpp" />
     <ClInclude Include="..\Auxility\PPTime.h" />
+    <ClInclude Include="..\Math\Statistics.hpp" />
     <ClInclude Include="..\String\PPCString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
