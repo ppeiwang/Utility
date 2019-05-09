@@ -3,6 +3,7 @@
 #include <string>
 #include <locale>
 #include <codecvt>
+#include <algorithm>
 
 namespace PEIPEISPACE
 {
@@ -16,6 +17,7 @@ namespace PEIPEISPACE
 		std::cout<<strSrc; // will print "dabc", every character that is in pattern "a b c e" will be deleted
 	*/
 	
+	template<typename T>
 	void Strip(std::string& str)
 	{
 		size_t endpos = str.find_last_not_of(" \t");
