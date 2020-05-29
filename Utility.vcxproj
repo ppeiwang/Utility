@@ -93,8 +93,9 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -148,6 +149,8 @@
     <ClInclude Include="Foundation.h" />
     <ClInclude Include="Logger\logger.hpp" />
     <ClInclude Include="Math\Statistics.hpp" />
+    <ClInclude Include="Math\StringMatrix\StringMatrix.h" />
+    <ClInclude Include="Math\StringMatrix\TextTable.h" />
     <ClInclude Include="String\PPCString.h" />
     <ClInclude Include="TestCase.h" />
   </ItemGroup>

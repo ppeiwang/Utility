@@ -6,7 +6,7 @@
 #include <sstream>
 #include <windows.h>
 #include <assert.h>
-#include "TestCase.hpp"
+#include "TestCase.h"
 
 namespace PEIPEISPACE
 {

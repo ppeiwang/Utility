@@ -1,3 +1,4 @@
+#ifdef QT
 #include "logger.hpp"
 #include <assert.h>
 
@@ -97,3 +98,5 @@ namespace PEIPEISPACE
 		m_stdLogger->info(gbk.data());
 	}
 }
+
+#endif

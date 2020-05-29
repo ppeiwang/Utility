@@ -1,4 +1,5 @@
 #pragma once
+#ifdef QT
 #include <QString>
 #include "Spdlog/spdlog.h"
 /*
@@ -52,3 +53,4 @@ namespace PEIPEISPACE
 		std::vector<std::function<void(const QString&, int)>> m_hookFuncs;
 	};
 }
+#endif

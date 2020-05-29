@@ -20,6 +20,9 @@
     <Filter Include="Chrono">
       <UniqueIdentifier>{9e260881-88e8-4a94-9a12-d651acd8f114}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Math\StringMatrix">
+      <UniqueIdentifier>{2448e321-3fc7-4887-a327-aedc1542e4ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="String\StringTestCase.h">
@@ -47,6 +50,12 @@
     </ClInclude>
     <ClInclude Include="Logger\logger.hpp">
       <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\StringMatrix\TextTable.h">
+      <Filter>Math\StringMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\StringMatrix\StringMatrix.h">
+      <Filter>Math\StringMatrix</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
