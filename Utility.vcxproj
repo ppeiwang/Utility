@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithm\Array\Array.h" />
+    <ClInclude Include="Algorithm\Queue\CircularQueue.h" />
     <ClInclude Include="Chrono\PPTime.h" />
     <ClInclude Include="Foundation.h" />
     <ClInclude Include="Logger\logger.hpp" />
