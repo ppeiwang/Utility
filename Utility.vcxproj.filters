@@ -26,6 +26,9 @@
     <Filter Include="Algorithm\Queue">
       <UniqueIdentifier>{64226e3f-4fba-4573-9196-d140b94c83f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{5ab7c259-1f11-4a3f-8fcf-2d66534c5343}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="String\StringTestCase.h">
@@ -62,6 +65,9 @@
     </ClInclude>
     <ClInclude Include="Algorithm\Queue\CircularQueue.h">
       <Filter>Algorithm\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern\Singleton.h">
+      <Filter>Pattern</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

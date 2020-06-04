@@ -152,6 +152,7 @@
     <ClInclude Include="Math\Statistics.hpp" />
     <ClInclude Include="Math\StringMatrix\StringMatrix.h" />
     <ClInclude Include="Math\StringMatrix\TextTable.h" />
+    <ClInclude Include="Pattern\Singleton.h" />
     <ClInclude Include="String\PPCString.h" />
     <ClInclude Include="TestCase.h" />
   </ItemGroup>

@@ -3,7 +3,6 @@
 #include "String/StringTestCase.h"
 #include "Math/StringMatrix/StringMatrix.h"
 #include "Algorithm/Queue/CircularQueue.h"
-
 using namespace	PEIPEISPACE;
 
 int main()
