@@ -22,6 +22,9 @@ int main()
 		std::cout << std::endl;
 		q.Push(i);
 	}
+	const auto& cref_q = q;
+	auto cH = cref_q.Head();
+	auto cT = cref_q.Tail();
 
 	stringTestCase();
 	
